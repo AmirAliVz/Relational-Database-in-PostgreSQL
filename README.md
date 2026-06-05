@@ -1,6 +1,8 @@
-# HealthFit Relational Database Design — PostgreSQL
+# Relational Database Design — PostgreSQL
 
-This project designs and implements a **normalized relational database** for HealthFit, a health tracking platform managing patient records, allergy histories, and fitness tracker device inventories. The existing data was stored across two flat CSV files with structural violations, duplicate records, and no enforced relationships — making reliable querying, scaling, and security management impractical.
+This project designs and implements a **normalized relational database** for a health tracking platform managing patient records, allergy histories, and fitness tracker device inventories. The existing data was stored across two flat CSV files with structural violations, duplicate records, and no enforced relationships — making reliable querying, scaling, and security management impractical.
+
+| ![DataSources](Figures/DataSources.png) |
 
 The project covers full database design from business problem analysis through schema normalization, implementation, query optimization, and role-based access control.
 
