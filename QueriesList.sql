@@ -7,9 +7,6 @@ SELECT p.pt_id, p.prefix, p.first_name,
     LEFT jOIN pt_allergy pa ON p.pt_id = pa.pt_id
     WHERE p. pt_id = '592';
 
-
--- // 591 Jr. Shawn Hernandez Peanut Smartwatch
-
 -- same Query using the initial 2 table structure
 SELECT DISTINCT(pt_id), pt_name, allergy, device_type
 FROM 
