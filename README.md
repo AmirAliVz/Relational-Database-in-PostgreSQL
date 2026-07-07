@@ -243,9 +243,13 @@ Each query was benchmarked using `EXPLAIN ANALYZE` in three configurations: norm
 | Q3 — Tracker Recommender | 648 rows scanned | Bitmap index scan on `(color, selling_price)` | Full scan on both tables |
 | Q4 — Medication Reminder | 257 rows scanned | Reduced to 73 rows with index on `(dob, last_visit, prefix)` | Slow; no join, no index |
 
-| Before Indexing | After Indexing |
-|---|---|
-| ![BeforeIndexing](Figures/BeforeIndexing.png) | ![AfterIndexing](Figures/AfterIndexing.png) |
+| Before Indexing |
+|---|
+| ![BeforeIndexing](Figures/BeforeIndexing.png) | 
+
+| After Indexing |
+|---|
+| ![AfterIndexing](Figures/AfterIndexing.png) |
 
 | Flat Table Baseline |
 |---|
